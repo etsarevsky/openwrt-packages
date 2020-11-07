@@ -1,0 +1,30 @@
+Package: snapclient
+Version: 0.22.0
+Depends: libc, libstdcpp6, libavahi-client, libatomic1, libogg0, libflac, libopus, boost, alsa-lib, libvorbisidec, libsoxr
+Source: /mnt/build/snapos/openwrt/snapcast
+SourceName: snapclient
+Section: sound
+SourceDateEpoch: 1598777182
+Architecture: arm_cortex-a9_neon
+Installed-Size: 240362
+Filename: snapclient_0.22.0_arm_cortex-a9_neon.ipk
+Size: 240495
+SHA256sum: 5d4d8f47be1f7c0cf785e1f81eeb83239aa4293566caf3b762ecebdd3be5445a
+Description:  Synchronous audio player
+ Snapcast client
+
+Package: snapserver
+Version: 0.22.0
+Depends: libc, libstdcpp6, libavahi-client, libatomic1, libogg0, libflac, libopus, boost, alsa-lib, libsoxr, libvorbis
+Source: /mnt/build/snapos/openwrt/snapcast
+SourceName: snapserver
+Section: sound
+SourceDateEpoch: 1598777182
+Architecture: arm_cortex-a9_neon
+Installed-Size: 670406
+Filename: snapserver_0.22.0_arm_cortex-a9_neon.ipk
+Size: 669812
+SHA256sum: 633ff8eab4aa944239759e17a391f347a6e6c50635eb82d675cb04e932fe1163
+Description:  Synchronous audio player
+ Snapcast server
+
